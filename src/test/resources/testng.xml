@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Smoke Test Suite">
+<listeners>
+  	<listener class-name="com.myApp.qa.listeners.MyListeners" />
+  </listeners>
+
+  <test name="Smoke Tests">
+    <classes>
+      <class name="com.myApp.qa.testcases.LoginTest"/>
+      <class name="com.myApp.qa.testcases.SearchTest"/>
+      <class name="com.myApp.qa.testcases.RegisterTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
